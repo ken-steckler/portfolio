@@ -1,0 +1,54 @@
+.wrapper-2 {
+  height: auto;
+  margin-bottom: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-2 {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  color: white;
+}
+
+.title-works {
+  font-size: 2.3rem;
+}
+
+.work-cards {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 20px;
+  width: 100%;
+}
+
+.work-card {
+  background-color: rgb(228, 228, 228);
+  color: black;
+  border-radius: 10px;
+  padding: 20px;
+  vertical-align: baseline;
+  max-width: 350px;
+  min-width: 250px;
+  height: 350px;
+
+  img {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .work-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+} ;
