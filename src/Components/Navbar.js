@@ -19,19 +19,19 @@ function Navbar() {
         </div>
       </div>
       <div className={click ? "centerlinks active" : "centerlinks"}>
-        <a href="/home" onClick={closeMobileMenu}>
+        <a href="/portfolio/home" onClick={closeMobileMenu}>
           Home
         </a>
-        <a href="/#anchor-about" onClick={closeMobileMenu}>
+        <a href="/portfolio/#anchor-about" onClick={closeMobileMenu}>
           About
         </a>
-        <a href="/#anchor-technologies" onClick={closeMobileMenu}>
+        <a href="/portfolio/#anchor-technologies" onClick={closeMobileMenu}>
           Technologies
         </a>
-        <a href="/#anchor-works" onClick={closeMobileMenu}>
+        <a href="/portfolio/#anchor-works" onClick={closeMobileMenu}>
           Works
         </a>
-        <a href="/#anchor-contact" onClick={closeMobileMenu}>
+        <a href="/portfolio/#anchor-contact" onClick={closeMobileMenu}>
           Contact
         </a>
       </div>
