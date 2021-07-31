@@ -19,9 +19,6 @@ function Navbar() {
         </div>
       </div>
       <div className={click ? "centerlinks active" : "centerlinks"}>
-        <a href="/portfolio/home" onClick={closeMobileMenu}>
-          Home
-        </a>
         <a href="/portfolio/#anchor-about" onClick={closeMobileMenu}>
           About
         </a>
