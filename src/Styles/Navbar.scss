@@ -1,9 +1,5 @@
-@import "../Variables/Variables.scss";
-
 body {
-  background-color: $background-2;
   max-width: 1920px;
-
   margin: 0%;
   padding: 0%;
 }
@@ -19,10 +15,8 @@ body {
   margin-bottom: 15px;
 
   a {
-    color: $darkFont;
     text-decoration: none;
     font-size: 0.9rem;
-    font-family: $titleFont;
     margin: 29px;
   }
 }
@@ -57,9 +51,8 @@ body {
   }
 }
 
-.centerlinks .navbar a:hover {
-  color: $hoverDarkFont;
-}
+// .centerlinks .navbar a:hover {
+// }
 
 .contact-btn {
   background-color: black;
@@ -70,13 +63,13 @@ body {
   border-radius: 50px;
 
   a {
-    color: $whiteColor;
+    color: white;
     transition: ease-in-out 0.3s;
   }
 }
 
 .contact-btn:hover a {
-  color: $hoverDarkFont;
+  color: gray;
 }
 
 .menu-btn {
